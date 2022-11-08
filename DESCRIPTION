@@ -1,0 +1,19 @@
+Package: scRCD
+Type: Package
+Title: Rare cell detection for single-cell RNA-seq data
+Version: 0.1.0
+Author: Chenxing Qian <qianchenxing@outlook.com>
+Maintainer: Chenxing Qian <qianchenxing@outlook.com>
+Description: This package calculates the cell-specific rareness score which indicates how "far" the cell is from the majority cells.
+    The rareness scores are calculated from a graphical model via spectral clustering-based optimization problem.
+    This package provides function for calculating the rareness scores and 2D-visualizing the rare cells.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
+Imports: 
+    ggplot2,
+    parallel,
+    stats
+Depends: 
+    R (>= 2.10)
